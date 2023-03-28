@@ -1,0 +1,2923 @@
+Started GET "/" for ::1 at 2023-03-07 11:41:36 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/waseem/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/waseem/.rvm/gems/ruby-3.0.0/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.3ms | Allocations: 831)
+Completed 200 OK in 13ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 7224)
+
+
+Started GET "/home/index" for ::1 at 2023-03-07 11:49:54 +0530
+  
+SyntaxError (/home/waseem/Workspace/RorLearning/Projects1/Hr-mithra/app/controllers/home_controller.rb:3: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/home_controller.rb:3: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/home_controller.rb:3: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/home_controller.rb:3: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/home/index" for ::1 at 2023-03-07 11:50:35 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 113)
+  Rendered layout layouts/application.html.erb (Duration: 977.7ms | Allocations: 93429)
+Completed 200 OK in 980ms (Views: 979.2ms | Allocations: 94472)
+
+
+Started GET "/home/index" for ::1 at 2023-03-07 11:50:59 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2822)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 3821)
+
+
+Started GET "/home/index" for ::1 at 2023-03-07 12:06:00 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2808)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 3811)
+
+
+Started GET "/home/index" for ::1 at 2023-03-07 12:15:33 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+Started GET "/" for ::1 at 2023-03-07 12:19:59 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 14332)
+Completed 200 OK in 13ms (Views: 12.3ms | Allocations: 15318)
+
+
+Started GET "/" for ::1 at 2023-03-07 12:34:05 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 151)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 14268)
+Completed 200 OK in 11ms (Views: 10.8ms | Allocations: 15309)
+
+
+Started GET "/" for ::1 at 2023-03-07 13:04:48 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 14364)
+Completed 200 OK in 14ms (Views: 12.9ms | Allocations: 15407)
+
+
+Started GET "/about-us" for ::1 at 2023-03-07 13:04:58 +0530
+  
+ActionController::RoutingError (uninitialized constant Pages):
+  
+Started GET "/about-us" for ::1 at 2023-03-07 13:06:33 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.3ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 14106)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 14960)
+
+
+Started GET "/" for ::1 at 2023-03-07 14:38:45 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4265)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 4337)
+Completed 500 Internal Server Error in 7ms (Allocations: 5361)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for #<ActionView::Base:0x00000000021278>
+Did you mean?  about_us_path):
+    1: <h1><%= @title_text %></h1>
+    2: 
+    3: <p><%= @subtitle_text %></p>
+    4: <%= link_to 'About Us', about_path %>
+  
+app/views/home/index.html.erb:4
+Started GET "/" for ::1 at 2023-03-07 14:43:43 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 4293)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 4365)
+Completed 500 Internal Server Error in 13ms (Allocations: 5337)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for #<ActionView::Base:0x00000000021638>
+Did you mean?  about_us_path):
+    1: <h1><%= @title_text %></h1>
+    2: 
+    3: <p><%= @subtitle_text %></p>
+    4: <%= link_to 'About Us', about_path %>
+  
+app/views/home/index.html.erb:4
+Started GET "/" for ::1 at 2023-03-07 14:45:07 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 102)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 14306)
+Completed 200 OK in 10ms (Views: 9.6ms | Allocations: 15048)
+
+
+Started GET "/about" for ::1 at 2023-03-07 14:45:15 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.9ms | Allocations: 114)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 2573)
+Completed 200 OK in 10ms (Views: 8.8ms | Allocations: 3421)
+
+
+Started GET "/" for ::1 at 2023-03-07 14:58:21 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1123)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 1196)
+Completed 500 Internal Server Error in 2ms (Allocations: 2210)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1><%= @title_text %></h1>
+
+<p><%= @subtitle_text %></p>
+<%= link_to 'About Us', about_path, target:_'blank' %>
+<%= link_to 'Contact Us', contact_path, target:_'blank' %>
+<%= link_to 'Privacy Policy', privacy_poilicy_path, target:_'blank' %>
+<%= link_to 'Terms and Condition', terms_and_conditions_path, target:_'blank' %>
+
+
+):
+1:    <h1><%= @title_text %></h1>
+2:    
+3:    <p><%= @subtitle_text %></p>
+4:    <%= link_to 'About Us', about_path, target:_'blank' %>
+5:    <%= link_to 'Contact Us', contact_path, target:_'blank' %>
+6:    <%= link_to 'Privacy Policy', privacy_poilicy_path, target:_'blank' %>
+7:    <%= link_to 'Terms and Condition', terms_and_conditions_path, target:_'blank' %>
+  
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+Started GET "/" for ::1 at 2023-03-07 14:59:54 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1166)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1239)
+Completed 500 Internal Server Error in 5ms (Allocations: 2212)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1><%= @title_text %></h1>
+
+<p><%= @subtitle_text %></p>
+<%= link_to 'About Us', about_path, target: _'blank' %>
+<%= link_to 'Contact Us', contact_path, target: _'blank' %>
+<%= link_to 'Privacy Policy', privacy_poilicy_path, target: _'blank' %>
+<%= link_to 'Terms and Condition', terms_and_conditions_path, target: _'blank' %>
+
+
+):
+1:    <h1><%= @title_text %></h1>
+2:    
+3:    <p><%= @subtitle_text %></p>
+4:    <%= link_to 'About Us', about_path, target: _'blank' %>
+5:    <%= link_to 'Contact Us', contact_path, target: _'blank' %>
+6:    <%= link_to 'Privacy Policy', privacy_poilicy_path, target: _'blank' %>
+7:    <%= link_to 'Terms and Condition', terms_and_conditions_path, target: _'blank' %>
+  
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:4: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:5: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:6: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/views/home/index.html.erb:7: syntax error, unexpected string literal, expecting `do' or '{' or '('
+Started GET "/" for ::1 at 2023-03-07 15:01:20 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 15.2ms | Allocations: 4482)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 4554)
+Completed 500 Internal Server Error in 19ms (Allocations: 5527)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `privacy_poilicy_path' for #<ActionView::Base:0x000000000296f8>
+Did you mean?  privacy_policy_path
+               privacy_policy_url):
+    3: <p><%= @subtitle_text %></p>
+    4: <%= link_to 'About Us', about_path, target: '_blank' %>
+    5: <%= link_to 'Contact Us', contact_path, target: '_blank' %>
+    6: <%= link_to 'Privacy Policy', privacy_poilicy_path, target: '_blank' %>
+    7: <%= link_to 'Terms and Condition', terms_and_conditions_path, target: '_blank' %>
+  
+app/views/home/index.html.erb:6
+Started GET "/" for ::1 at 2023-03-07 15:02:09 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 428)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 14626)
+Completed 200 OK in 15ms (Views: 14.2ms | Allocations: 15631)
+
+
+Started GET "/" for ::1 at 2023-03-07 15:02:30 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 429)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 3110)
+Completed 200 OK in 6ms (Views: 5.6ms | Allocations: 4115)
+
+
+Started GET "/terms-and-conditions" for ::1 at 2023-03-07 15:02:32 +0530
+Processing by PagesController#terms_and_conditions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms_and_conditions.html.erb within layouts/application
+  Rendered pages/terms_and_conditions.html.erb within layouts/application (Duration: 0.2ms | Allocations: 115)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 2576)
+Completed 200 OK in 3ms (Views: 3.0ms | Allocations: 3423)
+
+
+Started GET "/" for ::1 at 2023-03-07 15:06:24 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 428)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 3117)
+Completed 200 OK in 11ms (Views: 9.8ms | Allocations: 4122)
+
+
+Started GET "/about" for ::1 at 2023-03-07 15:06:37 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 1.3ms | Allocations: 409)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2866)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 3687)
+
+
+Started GET "/contact" for ::1 at 2023-03-07 15:06:48 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 0.7ms | Allocations: 381)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2776)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 3140)
+
+
+Started GET "/contact" for ::1 at 2023-03-07 15:06:59 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 0.2ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2552)
+Completed 200 OK in 4ms (Views: 3.2ms | Allocations: 2861)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-07 15:07:09 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 0.7ms | Allocations: 384)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2768)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 3130)
+
+
+Started GET "/about" for ::1 at 2023-03-07 15:07:15 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.2ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2558)
+Completed 200 OK in 3ms (Views: 3.0ms | Allocations: 2867)
+
+
+Started GET "/" for ::1 at 2023-03-07 15:08:32 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 176)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2554)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 2871)
+
+
+Started GET "/contact" for ::1 at 2023-03-07 15:08:34 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 0.2ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2542)
+Completed 200 OK in 3ms (Views: 2.9ms | Allocations: 2851)
+
+
+Started GET "/about" for ::1 at 2023-03-07 16:45:59 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.3ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2548)
+Completed 200 OK in 4ms (Views: 4.1ms | Allocations: 2858)
+
+
+Started GET "/" for ::1 at 2023-03-08 10:57:08 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 30.0ms | Allocations: 2107)
+  Rendered layout layouts/application.html.erb (Duration: 30.4ms | Allocations: 2195)
+Completed 500 Internal Server Error in 38ms (ActiveRecord: 0.0ms | Allocations: 7568)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1><%= @title_text %></h1>
+
+<p><%= @subtitle_text %></p>
+<%= link_to 'About Us', about_path, target: '_blank', style:'color:red;' %>
+<%= link_to 'Contact Us', contact_path, target: '_blank', style:'color:red; %>
+<%= link_to 'Privacy Policy', privacy_policy_path, target: '_blank' style:'color:red;%>
+<%= link_to 'Terms and Conditions', terms_and_conditions_path, target: '_blank' style:'color:red; %>
+
+
+):
+1:    <h1><%= @title_text %></h1>
+2:    
+3:    <p><%= @subtitle_text %></p>
+4:    <%= link_to 'About Us', about_path, target: '_blank', style:'color:red;' %>
+5:    <%= link_to 'Contact Us', contact_path, target: '_blank', style:'color:red; %>
+6:    <%= link_to 'Privacy Policy', privacy_policy_path, target: '_blank' style:'color:red;%>
+7:    <%= link_to 'Terms and Conditions', terms_and_conditions_path, target: '_blank' style:'color:red; %>
+  
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2023-03-08 10:58:08 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 1171)
+  Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 1245)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 2226)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1><%= @title_text %></h1>
+
+<p><%= @subtitle_text %></p>
+<%= link_to 'About Us', about_path, target: '_blank', style: 'color:red;' %>
+<%= link_to 'Contact Us', contact_path, target: '_blank', style: 'color:red; %>
+<%= link_to 'Privacy Policy', privacy_policy_path, target: '_blank' style: 'color:red;%>
+<%= link_to 'Terms and Conditions', terms_and_conditions_path, target: '_blank' style: 'color:red; %>
+
+
+):
+1:    <h1><%= @title_text %></h1>
+2:    
+3:    <p><%= @subtitle_text %></p>
+4:    <%= link_to 'About Us', about_path, target: '_blank', style: 'color:red;' %>
+5:    <%= link_to 'Contact Us', contact_path, target: '_blank', style: 'color:red; %>
+6:    <%= link_to 'Privacy Policy', privacy_policy_path, target: '_blank' style: 'color:red;%>
+7:    <%= link_to 'Terms and Conditions', terms_and_conditions_path, target: '_blank' style: 'color:red; %>
+  
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:7: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2023-03-08 11:00:22 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 1170)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1244)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1><%= @title_text %></h1>
+
+<p><%= @subtitle_text %></p>
+<%= link_to 'About Us', about_path, target: '_blank', style: 'color:red;' %>
+<%= link_to 'Contact Us', contact_path, target: '_blank', style: 'color:red; %>
+<%= link_to 'Privacy Policy', privacy_policy_path, target: '_blank', style: 'color:red;%>
+<%= link_to 'Terms and Conditions', terms_and_conditions_path, target: '_blank', style: 'color:red; %>
+
+
+):
+1:    <h1><%= @title_text %></h1>
+2:    
+3:    <p><%= @subtitle_text %></p>
+4:    <%= link_to 'About Us', about_path, target: '_blank', style: 'color:red;' %>
+5:    <%= link_to 'Contact Us', contact_path, target: '_blank', style: 'color:red; %>
+6:    <%= link_to 'Privacy Policy', privacy_policy_path, target: '_blank', style: 'color:red;%>
+7:    <%= link_to 'Terms and Conditions', terms_and_conditions_path, target: '_blank', style: 'color:red; %>
+  
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected constant, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:6: syntax error, unexpected local variable or method, expecting ')'
+app/views/home/index.html.erb:11: unterminated string meets end of file
+app/views/home/index.html.erb:11: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/" for ::1 at 2023-03-08 11:01:06 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 533)
+  Rendered layout layouts/application.html.erb (Duration: 315.5ms | Allocations: 35409)
+Completed 200 OK in 319ms (Views: 317.6ms | ActiveRecord: 0.0ms | Allocations: 36451)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:07:26 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 1999)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2072)
+Completed 500 Internal Server Error in 5ms (Allocations: 3054)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_links with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/waseem/Workspace/RorLearning/Projects1/Hr-mithra/app/views"
+  * "/home/waseem/.rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/waseem/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.2/app/views"
+  * "/home/waseem/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.4.2/app/views"
+
+Did you mean?  shared/link
+               active_storage/blobs/blob
+               action_text/attachables/missing_attachable
+               action_text/contents/content
+               layouts/action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery):
+    2: 
+    3: <p><%= @subtitle_text %></p>
+    4: 
+    5: <%= render 'shared/links' %>
+  
+app/views/home/index.html.erb:5
+Started GET "/" for ::1 at 2023-03-08 11:16:36 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.9ms | Allocations: 441)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 718)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 3413)
+Completed 200 OK in 13ms (Views: 11.6ms | Allocations: 4418)
+
+
+Started GET "/about" for ::1 at 2023-03-08 11:16:42 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 245)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 1.2ms | Allocations: 440)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2895)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 3744)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 11:16:47 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 216)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 1.6ms | Allocations: 403)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2777)
+Completed 200 OK in 7ms (Views: 5.9ms | Allocations: 3140)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-08 11:16:50 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 216)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 0.7ms | Allocations: 406)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 2788)
+Completed 200 OK in 3ms (Views: 2.8ms | Allocations: 3151)
+
+
+Started GET "/terms-and-conditions" for ::1 at 2023-03-08 11:16:53 +0530
+Processing by PagesController#terms_and_conditions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms_and_conditions.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 216)
+  Rendered pages/terms_and_conditions.html.erb within layouts/application (Duration: 0.9ms | Allocations: 409)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2787)
+Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 3151)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:20:34 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.2ms | Allocations: 443)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 721)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3402)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 4407)
+
+
+Started GET "/about" for ::1 at 2023-03-08 11:20:37 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 244)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.9ms | Allocations: 438)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2883)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 3704)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-08 11:20:41 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 216)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 0.8ms | Allocations: 405)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2789)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 3152)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:35:26 +0530
+Started GET "/" for ::1 at 2023-03-08 11:35:26 +0530
+Processing by HomeController#index as HTML
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.7ms | Allocations: 537)
+  Rendered shared/_links.html.erb (Duration: 0.9ms | Allocations: 777)
+  Rendered home/index.html.erb within layouts/application (Duration: 35.5ms | Allocations: 1359)
+  Rendered home/index.html.erb within layouts/application (Duration: 42.3ms | Allocations: 1404)
+  Rendered layout layouts/application.html.erb (Duration: 444.2ms | Allocations: 66396)
+  Rendered layout layouts/application.html.erb (Duration: 444.7ms | Allocations: 66685)
+Completed 200 OK in 686ms (Views: 557.9ms | ActiveRecord: 0.0ms | Allocations: 72478)
+
+
+Completed 200 OK in 810ms (Views: 559.0ms | ActiveRecord: 0.0ms | Allocations: 72891)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:38:28 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.8ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 717)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 3415)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 4427)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:38:33 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.6ms | Allocations: 216)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 278)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2656)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2975)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:38:54 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 216)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 278)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 2658)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 2976)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:41:08 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.4ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 717)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3407)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.0ms | Allocations: 4414)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:44:43 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.2ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 717)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 3405)
+Completed 200 OK in 9ms (Views: 8.3ms | Allocations: 4410)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:46:31 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 717)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3407)
+Completed 200 OK in 10ms (Views: 9.5ms | Allocations: 4417)
+
+
+Started GET "/" for ::1 at 2023-03-08 11:46:34 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 216)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 278)
+  Rendered layout layouts/application.html.erb (Duration: 14.9ms | Allocations: 2669)
+Completed 200 OK in 16ms (Views: 15.6ms | Allocations: 2986)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:20:32 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 2.0ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 720)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3749)
+Completed 200 OK in 14ms (Views: 13.2ms | Allocations: 4758)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:21:13 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3759)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 4764)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:21:16 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 216)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 278)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2721)
+Completed 200 OK in 6ms (Views: 5.9ms | Allocations: 3037)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:22:59 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 8.7ms | Allocations: 3759)
+Completed 200 OK in 12ms (Views: 11.2ms | Allocations: 4763)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:23:44 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.6ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 3747)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 4752)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:24:58 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.5ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3738)
+Completed 200 OK in 13ms (Views: 12.2ms | Allocations: 4743)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:29:25 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 271)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3808)
+Completed 200 OK in 13ms (Views: 11.4ms | Allocations: 4813)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:29:27 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 216)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 278)
+  Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2763)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 3081)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:29:32 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.8ms | Allocations: 216)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 278)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2759)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 3076)
+
+
+Started GET "/about" for ::1 at 2023-03-08 12:29:35 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.5ms | Allocations: 245)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 44.7ms | Allocations: 440)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 49.6ms | Allocations: 2985)
+Completed 200 OK in 52ms (Views: 51.5ms | Allocations: 3833)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:51:31 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 442)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 720)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 15367)
+Completed 200 OK in 10ms (Views: 9.7ms | Allocations: 16404)
+
+
+Started GET "/" for ::1 at 2023-03-08 12:52:38 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3825)
+Completed 200 OK in 11ms (Views: 10.4ms | Allocations: 4829)
+
+
+Started GET "/about" for ::1 at 2023-03-08 12:54:07 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.3ms | Allocations: 245)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.7ms | Allocations: 439)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2988)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 3833)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-08 12:55:14 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.5ms | Allocations: 216)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 16.6ms | Allocations: 406)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 21.2ms | Allocations: 2877)
+Completed 200 OK in 23ms (Views: 21.8ms | Allocations: 3241)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-08 12:55:17 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.3ms | Allocations: 216)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 0.4ms | Allocations: 276)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2751)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 3060)
+
+
+Started GET "/terms-and-conditions" for ::1 at 2023-03-08 12:55:22 +0530
+Processing by PagesController#terms_and_conditions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms_and_conditions.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.5ms | Allocations: 216)
+  Rendered pages/terms_and_conditions.html.erb within layouts/application (Duration: 24.3ms | Allocations: 409)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 2878)
+Completed 200 OK in 30ms (Views: 29.2ms | Allocations: 3242)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-08 12:55:47 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.3ms | Allocations: 216)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 0.4ms | Allocations: 276)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2747)
+Completed 200 OK in 3ms (Views: 3.0ms | Allocations: 3068)
+
+
+Started GET "/about" for ::1 at 2023-03-08 13:00:24 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.5ms | Allocations: 440)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 1.0ms | Allocations: 696)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 3803)
+Completed 200 OK in 6ms (Views: 4.9ms | Allocations: 4801)
+
+
+Started GET "/about" for ::1 at 2023-03-08 13:00:26 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.6ms | Allocations: 216)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.9ms | Allocations: 276)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2759)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 3069)
+
+
+Started GET "/about" for ::1 at 2023-03-08 13:00:28 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.5ms | Allocations: 216)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.8ms | Allocations: 276)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 2746)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 3056)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-08 13:00:29 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 216)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 0.7ms | Allocations: 408)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2903)
+Completed 200 OK in 4ms (Views: 3.4ms | Allocations: 3265)
+
+
+Started GET "/about" for ::1 at 2023-03-08 13:00:33 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 216)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.4ms | Allocations: 276)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 2.8ms | Allocations: 2755)
+Completed 200 OK in 3ms (Views: 3.1ms | Allocations: 3064)
+
+
+Started GET "/terms-and-conditions" for ::1 at 2023-03-08 13:00:43 +0530
+Processing by PagesController#terms_and_conditions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms_and_conditions.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 216)
+  Rendered pages/terms_and_conditions.html.erb within layouts/application (Duration: 1.1ms | Allocations: 409)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.5ms | Allocations: 2878)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 3241)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 13:00:51 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 216)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 1.5ms | Allocations: 403)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2872)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 3235)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 13:00:59 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 216)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 0.3ms | Allocations: 276)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2765)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 3074)
+
+
+Started GET "/about" for ::1 at 2023-03-08 13:05:54 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.6ms | Allocations: 440)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 3.0ms | Allocations: 699)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 3808)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 4806)
+
+
+Started GET "/about" for ::1 at 2023-03-08 13:07:28 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.3ms | Allocations: 440)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 2.6ms | Allocations: 699)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 3796)
+Completed 200 OK in 11ms (Views: 9.9ms | Allocations: 4795)
+
+
+Started GET "/about" for ::1 at 2023-03-08 13:10:06 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.3ms | Allocations: 440)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 2.6ms | Allocations: 719)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3812)
+Completed 200 OK in 14ms (Views: 12.2ms | Allocations: 4811)
+
+
+Started GET "/about" for ::1 at 2023-03-08 13:14:57 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 39.0ms | Allocations: 5448)
+  Rendered layout layouts/application.html.erb (Duration: 39.4ms | Allocations: 5520)
+Completed 500 Internal Server Error in 43ms (Allocations: 6504)
+
+
+  
+ActionView::Template::Error (Missing partial share/_dummy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/waseem/Workspace/RorLearning/Projects1/Hr-mithra/app/views"
+  * "/home/waseem/.rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/waseem/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.2/app/views"
+  * "/home/waseem/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.4.2/app/views"
+
+Did you mean?  shared/dummy_html
+               shared/links
+               shared/header
+               action_text/attachables/remote_image
+               action_text/attachables/missing_attachable
+               action_text/attachment_galleries/attachment_gallery):
+    1: <div class="col-lg-10 mx-auto">
+    2:    <h1 class="text-center mt-5 mb-4">About HR-Mithra</h1>
+    3:    <%= render 'share/dummy' %>
+    4: </div>
+    5: <%= render 'shared/links' %>
+  
+app/views/pages/about_us.html.erb:3
+Started GET "/about" for ::1 at 2023-03-08 13:16:15 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 3.0ms | Allocations: 2017)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2089)
+Completed 500 Internal Server Error in 6ms (Allocations: 3056)
+
+
+  
+ActionView::Template::Error (Missing partial shared/_dummy with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/home/waseem/Workspace/RorLearning/Projects1/Hr-mithra/app/views"
+  * "/home/waseem/.rvm/gems/ruby-3.0.0/gems/turbo-rails-1.4.0/app/views"
+  * "/home/waseem/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.4.2/app/views"
+  * "/home/waseem/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.4.2/app/views"
+
+Did you mean?  shared/dummy_html
+               shared/links
+               shared/header
+               action_text/attachables/remote_image
+               action_text/attachables/missing_attachable
+               action_text/attachment_galleries/attachment_gallery):
+    1: <div class="col-lg-10 mx-auto">
+    2:    <h1 class="text-center mt-5 mb-4">About HR-Mithra</h1>
+    3:    <%= render 'shared/dummy' %>
+    4: </div>
+    5: <%= render 'shared/links' %>
+  
+app/views/pages/about_us.html.erb:3
+Started GET "/about" for ::1 at 2023-03-08 13:18:22 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.3ms | Allocations: 135)
+  Rendered shared/_links.html.erb (Duration: 0.6ms | Allocations: 438)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 2.0ms | Allocations: 950)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 4079)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 5078)
+
+
+Started GET "/" for ::1 at 2023-03-08 13:20:26 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.0ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3826)
+Completed 200 OK in 10ms (Views: 9.0ms | Allocations: 4834)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 13:20:28 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.5ms | Allocations: 134)
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 242)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 1.4ms | Allocations: 704)
+  Rendered shared/_header.html.erb (Duration: 0.0ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 3259)
+Completed 200 OK in 5ms (Views: 4.7ms | Allocations: 4081)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-08 13:20:36 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 215)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 1.3ms | Allocations: 488)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2957)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 3320)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 13:32:19 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.6ms | Allocations: 134)
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 438)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 3.3ms | Allocations: 954)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 4065)
+Completed 200 OK in 14ms (Views: 12.4ms | Allocations: 5063)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-08 13:32:30 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_links.html.erb (Duration: 0.7ms | Allocations: 215)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 2.5ms | Allocations: 489)
+  Rendered shared/_header.html.erb (Duration: 2.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 2954)
+Completed 200 OK in 16ms (Views: 15.4ms | Allocations: 3317)
+
+
+Started GET "/about" for ::1 at 2023-03-08 13:32:42 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 215)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.8ms | Allocations: 485)
+  Rendered shared/_header.html.erb (Duration: 1.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 2964)
+Completed 200 OK in 14ms (Views: 10.6ms | Allocations: 3326)
+
+
+Started GET "/terms-and-conditions" for ::1 at 2023-03-08 13:32:52 +0530
+Processing by PagesController#terms_and_conditions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms_and_conditions.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 215)
+  Rendered pages/terms_and_conditions.html.erb within layouts/application (Duration: 1.5ms | Allocations: 494)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2967)
+Completed 200 OK in 7ms (Views: 6.4ms | Allocations: 3330)
+
+
+Started GET "/" for ::1 at 2023-03-08 14:36:29 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.9ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 720)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3829)
+Completed 200 OK in 10ms (Views: 9.3ms | Allocations: 4838)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 14:36:31 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_contact.html.erb (Duration: 0.3ms | Allocations: 145)
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 242)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 1.6ms | Allocations: 715)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 3268)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 4088)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 14:39:27 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_contact.html.erb (Duration: 0.5ms | Allocations: 169)
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 438)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 2.8ms | Allocations: 988)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 4098)
+Completed 200 OK in 11ms (Views: 9.6ms | Allocations: 5097)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 14:41:37 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_contact.html.erb (Duration: 0.6ms | Allocations: 178)
+  Rendered shared/_links.html.erb (Duration: 1.6ms | Allocations: 438)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 3.7ms | Allocations: 997)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 4113)
+Completed 200 OK in 14ms (Views: 12.5ms | Allocations: 5112)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 14:43:21 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_contact.html.erb (Duration: 0.5ms | Allocations: 168)
+  Rendered shared/_links.html.erb (Duration: 1.1ms | Allocations: 438)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 3.2ms | Allocations: 987)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 4105)
+Completed 200 OK in 12ms (Views: 11.5ms | Allocations: 5104)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 14:44:59 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_contact.html.erb (Duration: 0.3ms | Allocations: 142)
+  Rendered shared/_links.html.erb (Duration: 0.6ms | Allocations: 438)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 1.8ms | Allocations: 961)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 267)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 4063)
+Completed 200 OK in 9ms (Views: 8.5ms | Allocations: 5062)
+
+
+Started GET "/" for ::1 at 2023-03-08 14:52:17 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 1.2ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 267)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 4078)
+Completed 200 OK in 14ms (Views: 12.6ms | Allocations: 5086)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 14:52:35 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_contact.html.erb (Duration: 0.5ms | Allocations: 142)
+  Rendered shared/_links.html.erb (Duration: 0.5ms | Allocations: 242)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 2.8ms | Allocations: 710)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 3327)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 4148)
+
+
+Started GET "/contact" for ::1 at 2023-03-08 14:53:50 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_contact.html.erb (Duration: 0.3ms | Allocations: 141)
+  Rendered shared/_links.html.erb (Duration: 0.7ms | Allocations: 438)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 2.2ms | Allocations: 960)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 267)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 4312)
+Completed 200 OK in 8ms (Views: 7.2ms | Allocations: 5311)
+
+
+Started GET "/" for ::1 at 2023-03-08 14:53:58 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.7ms | Allocations: 244)
+  Rendered home/index.html.erb within layouts/application (Duration: 2.3ms | Allocations: 466)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 47)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 3080)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 3907)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-08 14:53:59 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.3ms | Allocations: 133)
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 215)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 1.3ms | Allocations: 666)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 3200)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 3564)
+
+
+Started GET "/" for ::1 at 2023-03-08 15:05:16 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.6ms | Allocations: 440)
+  Rendered home/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 267)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 4062)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 5067)
+
+
+Started GET "/" for ::1 at 2023-03-08 15:05:17 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 216)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 278)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 44)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 2812)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 3128)
+
+
+  [1m[35m (146.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (118.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEmployes (20230308102732)
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEmployes (20230308102732)
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "employes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar, "middle_name" varchar, "last_name" varchar, "personal_email" varchar, "city" varchar, "state" varchar, "country" varchar, "pincode" varchar, "address_line_1" varchar, "address_line_2" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20230308102732"]]
+  [1m[36mTRANSACTION (133.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-03-08 10:31:20.488871"], ["updated_at", "2023-03-08 10:31:20.488871"]]
+  [1m[36mTRANSACTION (97.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmploye Create (0.2ms)[0m  [1m[32mINSERT INTO "employes" ("first_name", "middle_name", "last_name", "personal_email", "city", "state", "country", "pincode", "address_line_1", "address_line_2", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", nil], ["middle_name", nil], ["last_name", nil], ["personal_email", nil], ["city", nil], ["state", nil], ["country", nil], ["pincode", nil], ["address_line_1", nil], ["address_line_2", nil], ["created_at", "2023-03-08 11:53:26.286533"], ["updated_at", "2023-03-08 11:53:26.286533"]]
+  [1m[36mTRANSACTION (105.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmploye Load (0.3ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmploye Create (0.2ms)[0m  [1m[32mINSERT INTO "employes" ("first_name", "middle_name", "last_name", "personal_email", "city", "state", "country", "pincode", "address_line_1", "address_line_2", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", nil], ["middle_name", nil], ["last_name", nil], ["personal_email", nil], ["city", nil], ["state", nil], ["country", nil], ["pincode", nil], ["address_line_1", nil], ["address_line_2", nil], ["created_at", "2023-03-08 12:00:51.997095"], ["updated_at", "2023-03-08 12:00:51.997095"]]
+  [1m[36mTRANSACTION (100.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmploye Load (0.2ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmploye Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "employes" WHERE "employes"."personal_email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mEmploye Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "employes" WHERE "employes"."personal_email" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmploye Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "employes" WHERE "employes"."personal_email" = ? LIMIT ?[0m  [["personal_email", "employee1@hr-mithra.com"], ["LIMIT", 1]]
+  [1m[36mEmploye Create (0.2ms)[0m  [1m[32mINSERT INTO "employes" ("first_name", "middle_name", "last_name", "personal_email", "city", "state", "country", "pincode", "address_line_1", "address_line_2", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Ubaid"], ["middle_name", "abdul"], ["last_name", "Mohammed"], ["personal_email", "employee1@hr-mithra.com"], ["city", "chennai"], ["state", "Tamilnadu"], ["country", "India"], ["pincode", "600014"], ["address_line_1", "My Address"], ["address_line_2", nil], ["created_at", "2023-03-08 12:23:09.283922"], ["updated_at", "2023-03-08 12:23:09.283922"]]
+  [1m[36mTRANSACTION (101.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmploye Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "employes" WHERE "employes"."personal_email" = ? LIMIT ?[0m  [["personal_email", "employee2@hr-mithra.com"], ["LIMIT", 1]]
+  [1m[36mEmploye Create (0.1ms)[0m  [1m[32mINSERT INTO "employes" ("first_name", "middle_name", "last_name", "personal_email", "city", "state", "country", "pincode", "address_line_1", "address_line_2", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["first_name", "Ubaid"], ["middle_name", "abdul"], ["last_name", "Mohammed"], ["personal_email", "employee2@hr-mithra.com"], ["city", "chennai"], ["state", "Tamilnadu"], ["country", "Indonesia"], ["pincode", "600014"], ["address_line_1", "My Address"], ["address_line_2", nil], ["created_at", "2023-03-08 12:34:51.484411"], ["updated_at", "2023-03-08 12:34:51.484411"]]
+  [1m[36mTRANSACTION (100.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmploye Load (0.3ms)[0m  [1m[34mSELECT "employes".* FROM "employes" WHERE "employes"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mEmploye Load (0.2ms)[0m  [1m[34mSELECT "employes".* FROM "employes" WHERE "employes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mEmploye Load (0.2ms)[0m  [1m[34mSELECT "employes".* FROM "employes" WHERE "employes"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmploye Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "employes" WHERE "employes"."personal_email" = ? AND "employes"."id" != ? LIMIT ?[0m  [["personal_email", "employee3@hr-mithra.com"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mEmploye Update (0.5ms)[0m  [1m[33mUPDATE "employes" SET "first_name" = ?, "last_name" = ?, "personal_email" = ?, "city" = ?, "state" = ?, "country" = ?, "pincode" = ?, "address_line_1" = ?, "updated_at" = ? WHERE "employes"."id" = ?[0m  [["first_name", "zain"], ["last_name", "user"], ["personal_email", "employee3@hr-mithra.com"], ["city", "bangalore"], ["state", "Karnataka"], ["country", "India"], ["pincode", "560032"], ["address_line_1", "very address"], ["updated_at", "2023-03-08 12:50:42.094962"], ["id", 1]]
+  [1m[36mTRANSACTION (95.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmploye Load (0.2ms)[0m  [1m[34mSELECT "employes".* FROM "employes" WHERE "employes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mEmploye Destroy (0.3ms)[0m  [1m[31mDELETE FROM "employes" WHERE "employes"."id" = ?[0m  [["id", 2]]
+  [1m[36mTRANSACTION (101.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mEmploye Load (0.2ms)[0m  [1m[34mSELECT "employes".* FROM "employes" WHERE "employes"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mEmploye Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "employes"[0m
+  [1m[36mEmploye Load (0.3ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+Started GET "/" for ::1 at 2023-03-09 14:39:16 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 25.2ms | Allocations: 520)
+  Rendered home/index.html.erb within layouts/application (Duration: 56.0ms | Allocations: 1087)
+  Rendered shared/_header.html.erb (Duration: 20.7ms | Allocations: 271)
+  Rendered shared/_footer.html.erb (Duration: 0.6ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 153.4ms | Allocations: 36725)
+Completed 200 OK in 162ms (Views: 156.2ms | ActiveRecord: 0.0ms | Allocations: 42146)
+
+
+Started GET "/about" for ::1 at 2023-03-09 14:51:37 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 10.8ms | Allocations: 135)
+  Rendered shared/_links.html.erb (Duration: 0.5ms | Allocations: 243)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 28.3ms | Allocations: 704)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 33.2ms | Allocations: 3335)
+Completed 200 OK in 35ms (Views: 34.3ms | Allocations: 4184)
+
+
+Started GET "/contact" for ::1 at 2023-03-09 14:51:45 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_contact.html.erb (Duration: 11.8ms | Allocations: 141)
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 215)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 24.1ms | Allocations: 681)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 29.1ms | Allocations: 3220)
+Completed 200 OK in 30ms (Views: 29.5ms | Allocations: 3589)
+
+
+Started GET "/terms-and-conditions" for ::1 at 2023-03-09 14:52:23 +0530
+Processing by PagesController#terms_and_conditions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms_and_conditions.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 215)
+  Rendered pages/terms_and_conditions.html.erb within layouts/application (Duration: 24.3ms | Allocations: 494)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 3031)
+Completed 200 OK in 28ms (Views: 27.5ms | Allocations: 3400)
+
+
+Started GET "/employee" for ::1 at 2023-03-09 15:50:22 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/employee"):
+  
+Started GET "/" for ::1 at 2023-03-09 15:50:40 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 246)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 312)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 14452)
+Completed 200 OK in 11ms (Views: 10.4ms | Allocations: 15202)
+
+
+  [1m[36mEmploye Load (16.1ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+Started GET "/employee" for ::1 at 2023-03-09 15:55:25 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/employee"):
+  
+Started GET "/employes" for ::1 at 2023-03-09 15:56:07 +0530
+  
+ActionController::RoutingError (uninitialized constant EmployesController
+Did you mean?  EmployeeController):
+  
+Started GET "/home/index" for ::1 at 2023-03-09 15:56:23 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/home/index"):
+  
+Started GET "/" for ::1 at 2023-03-09 15:56:52 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.3ms | Allocations: 216)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 278)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 2828)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 3146)
+
+
+Started GET "/about" for ::1 at 2023-03-09 15:57:51 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.0ms | Allocations: 10)
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 243)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 0.4ms | Allocations: 370)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 2992)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 3720)
+
+
+Started GET "/employees" for ::1 at 2023-03-09 16:00:28 +0530
+  
+ActionController::RoutingError (No route matches [GET] "/employees"):
+  
+Started GET "/employes" for ::1 at 2023-03-09 16:00:36 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 2ms (Allocations: 1596)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/employes" for ::1 at 2023-03-09 16:02:13 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 1544)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/employes" for ::1 at 2023-03-09 16:02:43 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 815)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/employes" for ::1 at 2023-03-09 16:02:44 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 570)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/employes" for ::1 at 2023-03-09 16:02:47 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 566)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/employes" for ::1 at 2023-03-09 16:04:28 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 566)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/employes" for ::1 at 2023-03-09 16:04:29 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 566)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+  [1m[36mEmploye Load (0.2ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+Started GET "/employes" for ::1 at 2023-03-09 16:07:46 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 1300)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/employes" for ::1 at 2023-03-09 16:07:47 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 566)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/employes" for ::1 at 2023-03-09 16:07:48 +0530
+Processing by EmployesController#index as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 566)
+
+
+  
+ActionController::MissingExactTemplate (EmployesController#index is missing a template for request formats: text/html):
+  
+actionpack (7.0.4.2) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.4.2) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.4.2) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.4.2) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.4.2) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4.2) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4.2) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4.2) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.4.2) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.4.2) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.4.2) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.4.2) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.4.2) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4.2) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.6.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.6.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.6.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.6.3) lib/rack/head.rb:12:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.6.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/cookies.rb:704:in `call'
+activerecord (7.0.4.2) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4.2) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4.2) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4.2) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.6.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.6.3) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.6.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4.2) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.4.2) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/employes" for ::1 at 2023-03-09 16:28:36 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  Rendered employes/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 131)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 297)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 15037)
+Completed 200 OK in 12ms (Views: 10.4ms | Allocations: 16838)
+
+
+Started GET "/" for ::1 at 2023-03-09 16:36:17 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 441)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 717)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 3335)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 4189)
+
+
+Started GET "/about" for ::1 at 2023-03-09 16:36:25 +0530
+Processing by PagesController#about_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/about_us.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.5ms | Allocations: 135)
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 243)
+  Rendered pages/about_us.html.erb within layouts/application (Duration: 2.5ms | Allocations: 698)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 47)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 3308)
+Completed 200 OK in 11ms (Views: 9.8ms | Allocations: 4153)
+
+
+Started GET "/contact" for ::1 at 2023-03-09 16:36:31 +0530
+Processing by PagesController#contact_us as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/contact_us.html.erb within layouts/application
+  Rendered shared/_contact.html.erb (Duration: 0.3ms | Allocations: 140)
+  Rendered shared/_links.html.erb (Duration: 0.3ms | Allocations: 215)
+  Rendered pages/contact_us.html.erb within layouts/application (Duration: 1.4ms | Allocations: 676)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 44)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 3216)
+Completed 200 OK in 5ms (Views: 4.9ms | Allocations: 3579)
+
+
+Started GET "/privacy-policy" for ::1 at 2023-03-09 16:36:41 +0530
+Processing by PagesController#privacy_policy as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/privacy_policy.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered shared/_links.html.erb (Duration: 0.2ms | Allocations: 215)
+  Rendered pages/privacy_policy.html.erb within layouts/application (Duration: 10.1ms | Allocations: 489)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3029)
+Completed 200 OK in 13ms (Views: 13.0ms | Allocations: 3392)
+
+
+Started GET "/terms-and-conditions" for ::1 at 2023-03-09 16:36:48 +0530
+Processing by PagesController#terms_and_conditions as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/terms_and_conditions.html.erb within layouts/application
+  Rendered shared/_dummy.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered shared/_links.html.erb (Duration: 0.3ms | Allocations: 215)
+  Rendered pages/terms_and_conditions.html.erb within layouts/application (Duration: 1.6ms | Allocations: 492)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 44)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3030)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 3393)
+
+
+Started GET "/" for ::1 at 2023-03-09 17:11:00 +0530
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 0.4ms | Allocations: 442)
+  Rendered home/index.html.erb within layouts/application (Duration: 0.9ms | Allocations: 719)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 267)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 12.4ms | Allocations: 15478)
+Completed 200 OK in 14ms (Views: 13.2ms | Allocations: 16515)
+
+
+Started GET "/employes" for ::1 at 2023-03-09 17:11:12 +0530
+Processing by EmployesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 809)
+
+
+  
+SyntaxError (/home/waseem/Workspace/RorLearning/Projects1/Hr-mithra/app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input):
+  
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/controllers/employes_controller.rb:3:in `index'
+Started GET "/employes" for ::1 at 2023-03-09 17:13:08 +0530
+Processing by EmployesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 808)
+
+
+  
+SyntaxError (/home/waseem/Workspace/RorLearning/Projects1/Hr-mithra/app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input):
+  
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/controllers/employes_controller.rb:4:in `index'
+Started GET "/employes" for ::1 at 2023-03-09 17:14:41 +0530
+Processing by EmployesController#index as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 2960)
+
+
+  
+SyntaxError (/home/waseem/Workspace/RorLearning/Projects1/Hr-mithra/app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input):
+  
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/controllers/employes_controller.rb:4:in `index'
+Started GET "/employes" for ::1 at 2023-03-09 17:14:57 +0530
+Processing by EmployesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 832)
+
+
+  
+SyntaxError (/home/waseem/Workspace/RorLearning/Projects1/Hr-mithra/app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input):
+  
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/controllers/employes_controller.rb:4:in `index'
+Started GET "/employes" for ::1 at 2023-03-09 17:15:34 +0530
+Processing by EmployesController#index as HTML
+Completed 500 Internal Server Error in 1ms (Allocations: 808)
+
+
+  
+SyntaxError (/home/waseem/Workspace/RorLearning/Projects1/Hr-mithra/app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input):
+  
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/models/employe.rb:14: syntax error, unexpected `end', expecting end-of-input
+app/controllers/employes_controller.rb:4:in `index'
+Started GET "/employes" for ::1 at 2023-03-09 17:16:10 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.1ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:10
+  Rendered employes/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 21049)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 77)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 21.1ms | Allocations: 35228)
+Completed 200 OK in 24ms (Views: 22.0ms | ActiveRecord: 0.7ms | Allocations: 36917)
+
+
+Started GET "/employes" for ::1 at 2023-03-09 17:20:57 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.1ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:15
+  Rendered employes/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 863)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 295)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 4242)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.1ms | Allocations: 5255)
+
+
+Started GET "/" for ::1 at 2023-03-10 16:43:17 +0530
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered shared/_links.html.erb (Duration: 8.3ms | Allocations: 520)
+  Rendered home/index.html.erb within layouts/application (Duration: 17.0ms | Allocations: 1086)
+  Rendered shared/_header.html.erb (Duration: 24.1ms | Allocations: 271)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 422.7ms | Allocations: 36818)
+Completed 200 OK in 430ms (Views: 425.0ms | ActiveRecord: 0.0ms | Allocations: 42234)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 16:43:24 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  Rendered employes/index.html.erb within layouts/application (Duration: 21.3ms | Allocations: 5229)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 5302)
+Completed 500 Internal Server Error in 289ms (ActiveRecord: 0.0ms | Allocations: 7006)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_employee_path' for #<ActionView::Base:0x0000000000b680>
+Did you mean?  new_employe_path
+               new_employe_url
+               edit_employe_path):
+    3:     <h2 class="text-center">Listing Employees</h2>
+    4:   </div>
+    5: </div>
+    6: <%= link_to 'Create New Employee', new_employee_path %>
+    7: <table class="table table-bordered">
+    8:   <thead>
+    9:     <tr>
+  
+app/views/employes/index.html.erb:6
+Started GET "/employes" for ::1 at 2023-03-10 16:43:59 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (93.3ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:16
+  Rendered employes/index.html.erb within layouts/application (Duration: 207.5ms | Allocations: 24036)
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 269)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 214.5ms | Allocations: 27403)
+Completed 200 OK in 217ms (Views: 121.6ms | ActiveRecord: 94.3ms | Allocations: 28416)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 16:44:10 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 98)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 59)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2662)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 3090)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 16:49:49 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.1ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:17
+  Rendered employes/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1150)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 4494)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.4ms | Allocations: 5514)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 16:49:52 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.2ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:17
+  Rendered employes/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 652)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 3197)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms | Allocations: 3522)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 16:50:03 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.1ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:17
+  Rendered employes/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 658)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 3193)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.1ms | Allocations: 3517)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 16:51:45 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.2ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:17
+  Rendered employes/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 954)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 269)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 4316)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.2ms | Allocations: 5329)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 16:51:46 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.2ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:17
+  Rendered employes/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 652)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 3185)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.2ms | Allocations: 3510)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 16:51:58 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.1ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:17
+  Rendered employes/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 652)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3191)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.1ms | Allocations: 3515)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 16:53:39 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.1ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:17
+  Rendered employes/index.html.erb within layouts/application (Duration: 2.6ms | Allocations: 954)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4313)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.1ms | Allocations: 5326)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 16:55:19 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.1ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:17
+  Rendered employes/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 960)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 269)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 4305)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.1ms | Allocations: 5319)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 16:58:30 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 128)
+  Rendered shared/_header.html.erb (Duration: 0.8ms | Allocations: 295)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3504)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.0ms | Allocations: 4539)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:15:48 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 156.0ms | Allocations: 6572)
+  Rendered shared/_header.html.erb (Duration: 0.9ms | Allocations: 277)
+  Rendered shared/_footer.html.erb (Duration: 0.5ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 163.3ms | Allocations: 9733)
+Completed 200 OK in 166ms (Views: 164.8ms | Allocations: 10756)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:18:33 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 5.6ms | Allocations: 3131)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 3203)
+Completed 500 Internal Server Error in 10ms (Allocations: 4194)
+
+
+  
+ActionView::Template::Error (undefined method `email' for #<ActionView::Helpers::FormBuilder:0x00007fb0307303d8 @nested_child_index={}, @options={:allow_method_names_outside_object=>true, :skip_default_ids=>false}, @template=#<ActionView::Base:0x0000000000c2b0>, @object=#<Employe id: nil, first_name: nil, middle_name: nil, last_name: nil, personal_email: nil, city: nil, state: nil, country: nil, pincode: nil, address_line_1: nil, address_line_2: nil, created_at: nil, updated_at: nil>, @object_name="employe", @default_options={:skip_default_ids=>false, :allow_method_names_outside_object=>true}, @default_html_options={}, @multipart=nil, @index=nil>):
+    29:         <div class="col-lg-4">
+    30:             <div class="form-group">
+    31:             <%= form.label :personal_email, class: 'mb-2' %>
+    32:             <%= form.email :personal_email, class: 'form-control form-control-lg rounded-0' %>
+    33:             </div>
+    34:         </div
+    35: 
+  
+app/views/employes/new.html.erb:32
+app/views/employes/new.html.erb:9
+Started GET "/employes/new" for ::1 at 2023-03-10 17:18:51 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 4802)
+  Rendered shared/_header.html.erb (Duration: 0.6ms | Allocations: 277)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 7979)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 9000)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:27:08 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 3.4ms | Allocations: 3801)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 277)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 6962)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 7983)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:29:35 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3624)
+  Rendered shared/_header.html.erb (Duration: 0.5ms | Allocations: 277)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 6785)
+Completed 200 OK in 15ms (Views: 13.7ms | Allocations: 7806)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:39:15 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 4.7ms | Allocations: 3986)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 269)
+  Rendered shared/_footer.html.erb (Duration: 0.1ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 7138)
+Completed 200 OK in 12ms (Views: 11.0ms | Allocations: 8159)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:42:23 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 6.7ms | Allocations: 3930)
+  Rendered shared/_header.html.erb (Duration: 0.4ms | Allocations: 269)
+  Rendered shared/_footer.html.erb (Duration: 0.2ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 7082)
+Completed 200 OK in 13ms (Views: 12.4ms | Allocations: 8103)
+
+
+Started GET "/employes" for ::1 at 2023-03-10 17:43:15 +0530
+Processing by EmployesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/index.html.erb within layouts/application
+  [1m[36mEmploye Load (0.1ms)[0m  [1m[34mSELECT "employes".* FROM "employes"[0m
+  ↳ app/views/employes/index.html.erb:17
+  Rendered employes/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 1108)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3639)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.4ms | Allocations: 4017)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:43:19 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 3043)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 5386)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 5722)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:45:03 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 6.9ms | Allocations: 3929)
+  Rendered shared/_header.html.erb (Duration: 0.3ms | Allocations: 269)
+  Rendered shared/_footer.html.erb (Duration: 0.3ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 7081)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 8104)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:45:04 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 3033)
+  Rendered shared/_header.html.erb (Duration: 0.1ms | Allocations: 45)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 5376)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.0ms | Allocations: 5711)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:45:29 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 9.2ms | Allocations: 3920)
+  Rendered shared/_header.html.erb (Duration: 0.7ms | Allocations: 269)
+  Rendered shared/_footer.html.erb (Duration: 0.4ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 7072)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 8095)
+
+
+Started GET "/employes/new" for ::1 at 2023-03-10 17:45:31 +0530
+Processing by EmployesController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering employes/new.html.erb within layouts/application
+  Rendered employes/new.html.erb within layouts/application (Duration: 6.5ms | Allocations: 3041)
+  Rendered shared/_header.html.erb (Duration: 0.2ms | Allocations: 45)
+  Rendered shared/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 5384)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 5719)
+
+
